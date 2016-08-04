@@ -1,6 +1,9 @@
 export default {
-    entry: 'index.js',
-    output: 'index-compiled.js',
+    entry: './src/index',
+    output: {
+      path: './dist',
+      filename: 'bundle.js'
+    },
     module: {
         loaders: [
             {test: /\.js$/, loaders: ['babel']},

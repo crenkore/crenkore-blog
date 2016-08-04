@@ -8,7 +8,7 @@
     "dev": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "",
-    "build": "babel-node build.js"
+    "build": "babel-node ./tools/build.js"
   },
   "repository": {
     "type": "git",
