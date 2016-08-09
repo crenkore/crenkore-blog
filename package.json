@@ -32,7 +32,9 @@
   },
   "homepage": "https://github.com/crenkore/crenkore-blog#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "react": "^15.2.1",
+    "react-bootstrap": "^0.30.2",
     "react-dom": "^15.2.1"
   },
   "devDependencies": {
